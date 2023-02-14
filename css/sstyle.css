@@ -1,0 +1,189 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+    scroll-behavior: smooth;
+    
+}
+
+*{
+    box-sizing: inherit;
+    
+}
+
+body{
+    
+    margin: 0;
+}
+
+img {
+    display: block;
+    /* width: 100px;
+    height: auto; */
+  }
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    border-bottom: 5px #fff solid;
+}
+
+section > p{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.container{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* /// */
+
+header{
+   position: fixed;
+   top: 0;
+   width: 0;
+   width: 100%;
+
+   background-color: #000;
+   opacity: 0.7;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+
+
+header > .container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 28px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-right: auto;
+
+    color: #fff;
+
+}
+
+.site-nav{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav__link{
+    padding: 10px 20px;
+
+    font-size: 12px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    color: #fff;
+
+    transition: all 250ms linear;
+
+    cursor: pointer;
+}
+
+.site-nav__link:hover{
+    color: cyan;
+}
+
+
+
+.section-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("https://cdn.pixabay.com/photo/2023/01/10/20/56/nyc-7710506_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("https://cdn.pixabay.com/photo/2022/03/11/10/55/couple-7061929_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("https://cdn.pixabay.com/photo/2022/11/21/12/24/swan-7606921_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-4{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("https://cdn.pixabay.com/photo/2022/12/22/02/56/dog-7671355_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    all: unset;
+
+     position: fixed;
+     bottom: 50px;
+     right: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+    color: #000;
+
+    background-color: #fff;
+    opacity: 0.5;
+
+    cursor: pointer;
+
+    transition: all 250ms linear;
+}
+
+.button:hover{
+    background-color: cyan;
+    
+}
+
+/* /// */
+
