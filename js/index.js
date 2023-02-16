@@ -29,6 +29,15 @@ const refs = {
 //     window.scrollTo(0,refs.dogSection.clientHeight)
 // });
 
+
+window.addEventListener('scroll', function (e) {
+   if(this.window.scrollY > 500){
+    refs.btnUp.classList.add('is-visible')
+   } else {
+    refs.btnUp.classList.remove('is-visible')
+   }
+});
+
 refs.btnUp.addEventListener('click', function (e) {
     window.scrollTo(0,0)
 });
